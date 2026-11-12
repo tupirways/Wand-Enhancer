@@ -15,7 +15,7 @@ WPF (.NET Framework 4.8) tool that patches the Wand Electron app's `app.asar`, p
 
 | Rule | Covers |
 |---|---|
-| `patch-engine.md` | structural JS patches, `PatchEntry`, payload scripts, Pro and DevTools patches (`Core/EnhancerConfig.cs`, `Core/Js/**`, `Patches/*.js`) |
+| `patch-engine.md` | structural JS patches, `PatchEntry`, payload scripts, Pro and DevTools patches (`Core/Js/**`, `Patches/*.js`) |
 | `asar-pipeline.md` | `Enhancer.Patch()` rollback, backups, auxiliary service integrity gate, ASAR extraction (`Core/Patching/**`, `AsarSharp/**`) |
 | `auto-apply.md` | update watcher, Squirrel update detection, launcher deployment, `launcher.log` (`Core/Services/**`, `Program.cs`) |
 | `update-notifications.md` | compile-time opt-in GitHub release check |
